@@ -1,0 +1,31 @@
+.hourBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time {
+    padding: 20px;
+    width: 50px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-color: black;
+    border-style: dashed none;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+button {
+    padding: 20px;
+    border-color: black;
+    border:2px;
+    border-style: solid;
+    background-color: aqua;
+}
+
+#header{
+    text-align: center;
+}
